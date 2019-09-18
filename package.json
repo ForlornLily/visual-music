@@ -1,0 +1,54 @@
+{
+  "name": "visual-music",
+  "version": "1.0.0",
+  "description": "make music visual",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.js",
+    "build": "cross-env webpack --config build/webpack.prod.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForlornLily/visual-music.git"
+  },
+  "keywords": [
+    "arknights"
+  ],
+  "author": "Forlorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ForlornLily/visual-music/issues"
+  },
+  "homepage": "https://github.com/ForlornLily/visual-music#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^5.2.0",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "file-loader": "^4.2.0",
+    "glob": "^7.1.4",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "nodemon": "^1.19.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "style-loader": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}

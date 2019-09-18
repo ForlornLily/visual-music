@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+}
+.main-wrapper {
+  overflow: hidden;
+}
+.main {
+  width: 100%;
+  text-align: center;
+}
+.music-list {
+  float: left;
+  width: 30%;
+  min-width: 100px;
+}
+.list-item {
+  cursor: pointer;
+}
+.list-item:hover {
+  color: #0084ff;
+}
