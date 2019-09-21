@@ -17,3 +17,8 @@ figure  {
   white-space: nowrap;
   display: block;
 }
+button {
+  border: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}

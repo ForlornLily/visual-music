@@ -6,17 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Visual Music</title>
+  <link href="../static/iconfont/iconfont.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+  <div class="header-wrapper">
   <header class="header">Visual Music</header>
+  <nav class="control">
+    <button class="icon iconfont icon--" title="停止" id="pause"></button>
+    <input type="range" min="0" max="100" value="20" id="control" class="range">
+  </nav>
+</div>
   <div class="main-wrapper">
     <figure class="music-list">
-      music list
+      <h1 class="title">music list</h1>
       <ul id="music_list"></ul>
     </figure>
-    <main class="main">
-      <input type="range" min="0" max="100" value="20" id="control">
+    <main class="main" id="main">
+      <canvas id="canvas" class="visual-area"></canvas>
     </main>
   </div>
 </body>
